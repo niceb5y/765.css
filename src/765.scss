@@ -1,0 +1,27 @@
+@import "./variables";
+
+@each $series, $scheme in $imas {
+	@each $color, $value in $scheme {
+		@if $series== "ml" {
+			.bg-#{$color} {
+				background-color: $value;
+			}
+			.text-#{$color} {
+				color: $value;
+			}
+			.fill-#{$color} {
+				fill: $value;
+			}
+		} @else {
+			.bg-#{$color}-#{$series} {
+				background-color: $value;
+			}
+			.text-#{$color}-#{$series} {
+				color: $value;
+			}
+			.fill-#{$color}-#{$series} {
+				fill: $value;
+			}
+		}
+	}
+}

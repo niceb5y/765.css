@@ -1,0 +1,129 @@
+$imas_ac: (
+	"amami": #ff6666,
+	"kisaragi": #66ccff,
+	"hagiwara": #b0b0ff,
+	"takatsuki": #ff9944,
+	"akizuki": #66ff66,
+	"miura": #cc66ff,
+	"minase": #ff77aa,
+	"kikuchi": #909090,
+	"futami": #ffff33
+);
+
+$imas_sp: (
+	"amami": #f70f1f,
+	"kisaragi": #0775c4,
+	"hagiwara": #aececb,
+	"takatsuki": #f29047,
+	"akizuki": #00a752,
+	"miura": #7e51a6,
+	"minase": #fa98bf,
+	"kikuchi": #464b4f,
+	"futami": #fcd424,
+	"hoshii": #a1ca62,
+	"shijou": #b51d66,
+	"ganaha": #00b1bb
+);
+
+$imas_2: (
+	"amami": #e33830,
+	"kisaragi": #0075c2,
+	"hagiwara": #d3e5e5,
+	"takatsuki": #f3983b,
+	"akizuki": #01ac5e,
+	"miura": #7e479a,
+	"minase": #f39fc1,
+	"kikuchi": #515659,
+	"futami": #ffe43f,
+	"hoshii": #a9d053,
+	"shijou": #a61c69,
+	"ganaha": #00aeb9
+);
+
+$imas_ml_as: (
+	"amami": #e22b30,
+	"kisaragi": #2743d2,
+	"hagiwara": #d3dde9,
+	"takatsuki": #f39939,
+	"akizuki": #01a860,
+	"miura": #9238be,
+	"minase": #fd99e1,
+	"kikuchi": #515558,
+	"futami": #ffe43f,
+	"hoshii": #b4e04b,
+	"shijou": #a6126a,
+	"ganaha": #01adb9
+);
+
+$imas_ml_p: (
+	"kasuga": #ea5b76,
+	"tanaka": #92cfbb,
+	"satake": #58a6dc,
+	"tokugawa": #5abfb7,
+	"nanao": #c7b83c,
+	"takayama": #7f6575,
+	"matsuda": #b54461,
+	"kousaka": #e9739b,
+	"nakatani": #f7e78e,
+	"stewart": #554171,
+	"yabuki": #f5ad3b,
+	"yokoyama": #788bc5,
+	"fukuda": #eceb70
+);
+
+$imas_ml_f: (
+	"mogami": #6495cf,
+	"tokoro": #454341,
+	"handa": #fff03c,
+	"tenkubashi": #bee3e3,
+	"kitazawa": #afa690,
+	"maihama": #e25a9b,
+	"nikaido": #f19557,
+	"makabe": #99b7dc,
+	"momose": #f19591,
+	"nagayoshi": #aeb49c,
+	"suou": #efb864,
+	"julia": #d7385f,
+	"shiraishi": #ebe1ff
+);
+
+$imas_ml_a: (
+	"ibuki": #fed552,
+	"shimabara": #9bce92,
+	"hakozaki": #ed90ba,
+	"nonohara": #eb613f,
+	"mochizuki": #7e6ca8,
+	"kinoshita": #d1342c,
+	"baba": #f1becb,
+	"ogami": #ee762e,
+	"toyokawa": #7278a8,
+	"miyao": #d7a96b,
+	"shinomiya": #b63b40,
+	"kitakami": #6bb6b0,
+	"sakuramori": #274079
+);
+
+$imas_ml: join(join($imas_ml_as, $imas_ml_p), join($imas_ml_f, $imas_ml_a));
+
+$imas_pm: (
+	"amami": #e03731,
+	"kisaragi": #0075c1,
+	"hagiwara": #d4e4e5,
+	"takatsuki": #f39938,
+	"akizuki": #0ba95f,
+	"miura": #7d4698,
+	"minase": #f19ec2,
+	"kikuchi": #505456,
+	"futami": #ffe33b,
+	"hoshii": #a9cf52,
+	"shijou": #a61169,
+	"ganaha": #09adb8
+);
+
+$imas: (
+	"ac": $imas_ac,
+	"sp": $imas_sp,
+	"2": $imas_2,
+	"ml": $imas_ml,
+	"pm": $imas_pm
+);

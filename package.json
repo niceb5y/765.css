@@ -1,0 +1,14 @@
+{
+	"name": "765.css",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "git@github.com:niceb5y/765.css.git",
+	"author": "Seungho Kim <niceb5y@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"node-sass": "^4.13.0"
+	},
+	"scripts": {
+		"build": "node-sass src --output dist --output-style compressed"
+	}
+}
