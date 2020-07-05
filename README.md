@@ -11,8 +11,8 @@ THE IDOLM@STER Color Palette
 />
 
 <p class="text-amami">Amami Haruka</p>
-<p class="text-chihaya-sp">Kisaragi Chihaya</p>
-<p class="text-hagiwara-2">Hagiwara Yukiho</p>
+<p class="text-kisaragi-sp">Kisaragi Chihaya</p>
+<p class="text-hoshii-2">Hoshii Miki</p>
 <p class="text-takatsuki-pm">Takatsuki Yayoi</p>
 <p class="bg-handa">ROCONIZE</p>
 ```

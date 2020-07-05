@@ -9,40 +9,60 @@
 			href="https://cdn.jsdelivr.net/gh/niceb5y/765.css@1.0.0/dist/765.css"
 		/>
 		<link
-			href="https://fonts.googleapis.com/css?family=Lato:300&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Lato:wght@300&display=swap"
 			rel="stylesheet"
 		/>
 		<title>765.css</title>
 		<style>
 			body {
-				text-align: center;
 				width: 100%;
 				min-width: 480px;
 				max-width: 800px;
 				margin: 0 auto;
 				font-family: "Lato", sans-serif;
 			}
+			body header {
+				text-align: center;
+			}
 			table {
 				margin: 0 auto;
 				width: 100%;
+				border-collapse: collapse;
+			}
+			tr:nth-child(2n) {
+				background-color: #eeeeee;
 			}
 			th,
 			td {
 				min-width: 80px;
 				width: 16.66%;
 				text-align: left;
+				border: 1px solid #dddddd;
 			}
 			td {
 				text-align: center;
 			}
-			div.code {
-				text-align: left;
+			code {
+				font-family: "Fira Code", monospace;
+			}
+			code.card {
 				margin: 0 auto;
-				padding: 10px;
 				box-sizing: border-box;
+				border: 1px solid #eeeeee;
+				border-radius: 4px;
+				display: block;
+				padding: 10px;
+				box-shadow: rgba(0, 0, 0, 0.02) 0px 2.767256496646346px
+						2.2138051973170767px 0px,
+					rgba(0, 0, 0, 0.027) 0px 6.65010204838622px 5.3200816387089755px 0px,
+					rgba(0, 0, 0, 0.035) 0px 12.52155187358589px 10.017241498868712px 0px,
+					rgba(0, 0, 0, 0.043) 0px 22.336308991857774px 17.869047193486217px 0px,
+					rgba(0, 0, 0, 0.05) 0px 41.77760933808553px 33.422087470468426px 0px,
+					rgba(0, 0, 0, 0.07) 0px 100px 80px 0px;
+				margin-bottom: 100px;
 			}
 			h2 {
-				text-align: left;
+				margin-bottom: 0.4em;
 			}
 			footer {
 				padding-top: 30px;
@@ -59,10 +79,10 @@
 	<body>
 		<header>
 			<h1>765.css</h1>
+			<a href="https://github.com/niceb5y/765.css">[repo]</a>
 		</header>
-		<a href="https://github.com/niceb5y/765.css">[repo]</a>
 		<h2>Usage</h2>
-		<div class="code">
+		<code class="card">
 			<div>
 				<span class="text-tokoro">&lt;</span
 				><span class="text-kisaragi">link</span>
@@ -93,35 +113,32 @@
 				><span class="text-kisaragi">p</span>&nbsp;<span class="text-ganaha"
 					>class</span
 				>=<span class="text-nonohara">"text-amami"</span
-				><span class="text-ganaha"></span
-				><span class="text-tokoro">&gt;</span>Amami&nbsp;Haruka<span
-					class="text-tokoro"
-					>&lt;</span
-				><span class="text-tokoro">/</span><span class="text-kisaragi">p</span
+				><span class="text-ganaha"></span><span class="text-tokoro">&gt;</span
+				><span class="text-amami">Amami&nbsp;Haruka</span
+				><span class="text-tokoro">&lt;</span><span class="text-tokoro">/</span
+				><span class="text-kisaragi">p</span
 				><span class="text-tokoro">&gt;</span>
 			</div>
 			<div>
 				<span class="text-tokoro">&lt;</span
 				><span class="text-kisaragi">p</span>&nbsp;<span class="text-ganaha"
 					>class</span
-				>=<span class="text-nonohara">"text-chihaya-sp"</span
-				><span class="text-ganaha"></span
-				><span class="text-tokoro">&gt;</span>Kisaragi&nbsp;Chihaya<span
-					class="text-tokoro"
-					>&lt;</span
-				><span class="text-tokoro">/</span><span class="text-kisaragi">p</span
+				>=<span class="text-nonohara">"text-kisaragi-sp"</span
+				><span class="text-ganaha"></span><span class="text-tokoro">&gt;</span
+				><span class="text-kisaragi-sp">Kisaragi&nbsp;Chihaya</span
+				><span class="text-tokoro">&lt;</span><span class="text-tokoro">/</span
+				><span class="text-kisaragi">p</span
 				><span class="text-tokoro">&gt;</span>
 			</div>
 			<div>
 				<span class="text-tokoro">&lt;</span
 				><span class="text-kisaragi">p</span>&nbsp;<span class="text-ganaha"
 					>class</span
-				>=<span class="text-nonohara">"text-hagiwara-2"</span
-				><span class="text-ganaha"></span
-				><span class="text-tokoro">&gt;</span>Hagiwara&nbsp;Yukiho<span
-					class="text-tokoro"
-					>&lt;</span
-				><span class="text-tokoro">/</span><span class="text-kisaragi">p</span
+				>=<span class="text-nonohara">"text-hoshii-2"</span
+				><span class="text-ganaha"></span><span class="text-tokoro">&gt;</span
+				><span class="text-hoshii-2">Hoshii&nbsp;Miki</span
+				><span class="text-tokoro">&lt;</span><span class="text-tokoro">/</span
+				><span class="text-kisaragi">p</span
 				><span class="text-tokoro">&gt;</span>
 			</div>
 			<div>
@@ -129,11 +146,10 @@
 				><span class="text-kisaragi">p</span>&nbsp;<span class="text-ganaha"
 					>class</span
 				>=<span class="text-nonohara">"text-takatsuki-pm"</span
-				><span class="text-ganaha"></span
-				><span class="text-tokoro">&gt;</span>Takatsuki&nbsp;Yayoi<span
-					class="text-tokoro"
-					>&lt;</span
-				><span class="text-tokoro">/</span><span class="text-kisaragi">p</span
+				><span class="text-ganaha"></span><span class="text-tokoro">&gt;</span
+				><span class="text-takatsuki-pm">Takatsuki&nbsp;Yayoi</span
+				><span class="text-tokoro">&lt;</span><span class="text-tokoro">/</span
+				><span class="text-kisaragi">p</span
 				><span class="text-tokoro">&gt;</span>
 			</div>
 			<div>
@@ -141,13 +157,13 @@
 				><span class="text-kisaragi">p</span>&nbsp;<span class="text-ganaha"
 					>class</span
 				>=<span class="text-nonohara">"bg-handa"</span
-				><span class="text-ganaha"></span
-				><span class="text-tokoro">&gt;</span>ROCONIZE<span class="text-tokoro"
-					>&lt;</span
-				><span class="text-tokoro">/</span><span class="text-kisaragi">p</span
+				><span class="text-ganaha"></span><span class="text-tokoro">&gt;</span
+				><span class="bg-handa">ROCONIZE</span
+				><span class="text-tokoro">&lt;</span><span class="text-tokoro">/</span
+				><span class="text-kisaragi">p</span
 				><span class="text-tokoro">&gt;</span>
 			</div>
-		</div>
+		</code>
 		<h2>Available Colors</h2>
 		<table>
 			<thead>
@@ -370,6 +386,453 @@
 					<td class="bg-shiraishi"></td>
 					<td>sakuramori</td>
 					<td class="bg-sakuramori"></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h2>Available Actions</h2>
+		<ul>
+			<li><code>bg</code> - Set background color</li>
+			<li><code>text</code> - Set text color</li>
+			<li><code>fill</code> - Set svg fill color</li>
+		</ul>
+		<h2>
+			<a
+				id="user-content-available-color-palettes"
+				class="anchor"
+				href="#available-color-palettes"
+				aria-hidden="true"
+				><span aria-hidden="true" class="octicon octicon-link"></span></a
+			>Available Color Palettes
+		</h2>
+		<ul>
+			<li>
+				Default (without suffix) - THE IDOLM@STER Million Live Theater Days
+			</li>
+			<li>ac - THE IDOLM@STER Arcade</li>
+			<li>sp - THE IDOLM@STER SP</li>
+			<li>2 - THE IDOLM@STER 2</li>
+			<li>pm - THE IDOLM@STER Producer Meeting 2017</li>
+		</ul>
+		<table>
+			<thead>
+				<tr>
+					<th>id</th>
+					<th>{action}-{id}</th>
+					<th>{action}-{id}-ac</th>
+					<th>{action}-{id}-sp</th>
+					<th>{action}-{id}-2</th>
+					<th>{action}-{id}-pm</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>amami</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+				</tr>
+				<tr>
+					<td>kisaragi</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+				</tr>
+				<tr>
+					<td>hagiwara</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+				</tr>
+				<tr>
+					<td>takatsuki</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+				</tr>
+				<tr>
+					<td>akizuki</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+				</tr>
+				<tr>
+					<td>miura</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+				</tr>
+				<tr>
+					<td>minase</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+				</tr>
+				<tr>
+					<td>kikuchi</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+				</tr>
+				<tr>
+					<td>futami</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+				</tr>
+				<tr>
+					<td>hoshii</td>
+					<td>O</td>
+					<td></td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+				</tr>
+				<tr>
+					<td>shijou</td>
+					<td>O</td>
+					<td></td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+				</tr>
+				<tr>
+					<td>ganaha</td>
+					<td>O</td>
+					<td></td>
+					<td>O</td>
+					<td>O</td>
+					<td>O</td>
+				</tr>
+				<tr>
+					<td>kasuga</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>tanaka</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>satake</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>tokugawa</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>nanao</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>takayama</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>matsuda</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>kousaka</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>nakatani</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>stewart</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>yabuki</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>yokoyama</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>fukuda</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>mogami</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>tokoro</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>handa</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>tenkubashi</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>kitazawa</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>maihama</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>nikaido</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>makabe</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>momose</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>nagayoshi</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>suou</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>julia</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>shiraishi</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>ibuki</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>shimabara</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>hakozaki</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>nonohara</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>mochizuki</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>kinoshita</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>baba</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>ogami</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>toyokawa</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>miyao</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>shinomiya</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>kitakami</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>sakuramori</td>
+					<td>O</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
 				</tr>
 			</tbody>
 		</table>
